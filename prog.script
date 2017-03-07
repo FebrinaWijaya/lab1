@@ -1,0 +1,7 @@
+Script started on 2017年03月08日 (週三) 00時49分22秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m g++ -o prog prog.cpp
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m ./prog
+Input an integer : 22
+22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m 
+Script done on 2017年03月08日 (週三) 00時49分47秒
