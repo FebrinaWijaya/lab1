@@ -1,16 +1,36 @@
 #include<iostream>
 using namespace std;
+class num{
+	int val;
+	public:
+	void readnum();
+	void printnum();
+	void checknum();
+};
+void num::readnum()
+{
+	cout<<"Input an integer : ";
+	cin>>val;
+}
+void num::printnum()
+{
+	cout<<val<<" ";
+}
+void num::checknum()
+{
+	while(val!=1)
+	{
+		printnum();
+		if(val%2!=0) val=3*val+1;
+		else val/=2;
+	}
+}
 int main()
 {
-	int n;
-	cout<<"Input an integer : ";
-	cin>>n;
-	while(n!=1)
-	{
-		cout<<n<<" ";
-		if(n%2!=0) n=3*n+1;
-		else n/=2;
-	}
-	cout<<n<<endl;
+	num n;
+	n.readnum();
+	n.checknum();
+	n.printnum();
+	cout<<endl;
 	return 0;
 }
